@@ -1,6 +1,6 @@
 var csp = require('./csp');
 
-var SIZE = 8, board = {}, variables = {}, constraints = [];
+var SIZE = 40, board = {}, variables = {}, constraints = [];
 
 function not_colliding(i, j) {
   function diagonal(a, b) {
